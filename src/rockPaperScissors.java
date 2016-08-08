@@ -6,13 +6,10 @@ import java.util.Scanner;
  * Created by GabeKeyner on 8/4/2016.
  */
 public class rockPaperScissors {
-//    private static Object[] gameHistory;
-//    private static String enterDraw;
 
 
-    //    public static ArrayList<Integer> userWin = new ArrayList<>();
-//    public static ArrayList<Integer> computerWin = new ArrayList<>();
     static ArrayList<String> gameHistory = new ArrayList<>();
+
 
     public static void main(String[] args) {
 
@@ -114,7 +111,7 @@ public class rockPaperScissors {
         System.out.println("Or type [history] to see your recent quests!");
 
         enterDraw();
-//        enterDraw = gameHistory();
+
     }
 
 
